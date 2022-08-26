@@ -29,3 +29,10 @@ dependencies {
 tasks.named('test') {
 	useJUnitPlatform()
 }
+
+tasks.register('print') {
+    doLast {
+        println 'hello'
+    }
+}
+
